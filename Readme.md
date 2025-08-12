@@ -22,6 +22,7 @@ This project enables instant communication between multiple clients through a pu
 - **Messaging**: SockJS for WebSocket fallback
 # Project Structure
 
+```plaintext
 Realtime-Chat-app/
 ├── src/
 │   ├── main/
@@ -30,11 +31,11 @@ Realtime-Chat-app/
 │   │   │       └── example/
 │   │   │           └── chat/
 │   │   │               ├── controller/
-│   │   │               │   ├── ChatController.java
+│   │   │               │   └── ChatController.java
 │   │   │               ├── model/
-│   │   │               │   ├── Message.java
+│   │   │               │   └── Message.java
 │   │   │               ├── config/
-│   │   │               │   ├── WebSocketConfig.java
+│   │   │               │   └── WebSocketConfig.java
 │   │   │               └── ChatApplication.java
 │   │   └── resources/
 │   │       ├── static/
@@ -53,6 +54,8 @@ Realtime-Chat-app/
 ├── .gitignore
 ├── pom.xml
 └── README.md
+```
+
 
 
 ## Run Locally
